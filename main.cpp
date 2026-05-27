@@ -1,6 +1,7 @@
 #include <iostream> 
 #include <string>
 #include <windows.h>
+#include <iomanip> 
 using namespace std;
 
 int main( ) {
@@ -48,7 +49,7 @@ int main( ) {
     } 
 
     // Saída
-    cout << "Alunos cadastrados: " << endl; 
+    cout << "\nAlunos cadastrados: " << endl; 
     for (int i = 0; i < qtdAlunos; i++)     
     {
         cout << "  " << i + 1 << ". " << nomes[i] << endl;
@@ -57,10 +58,18 @@ int main( ) {
     cout << "\n=== RELATÓRIO ===" << endl; 
     
     int aprovados = 0, recuperacao = 0, reprovados = 0;
+    cout << fixed << setprecision(1); 
 
     for (int i = 0; i < qtdAlunos; i++)     
     {
-        cout << nomes[i] << " - Média: " << media[i] << endl;
+        cout << "Aluno(a): " << nomes[i] << endl;
+        
+        for (int j = 0; j < qtdDisciplinas; j++) {
+            cout << "  Disciplina " << j + 1 << " - Nota: " << notas[i][j] << endl;
+        }
+        
+        cout << "Média: " << media[i] << " - ";
+
         if (media[i] >= 7) {
             cout << "Aprovado" << endl;
             aprovados++; 
@@ -73,9 +82,11 @@ int main( ) {
             cout << "Reprovado" << endl;
             reprovados++;
         }
+        cout << "----------------------------------" << endl;
     }
 
-    cout << "\nResumo: " << aprovados << " aprovados, " << recuperacao << " de recuperação, " << reprovados << " reprovados." << endl;
+    cout << "Resumo: " << aprovados << " aprovados, " << recuperacao << " de recuperação, " << reprovados << " reprovados." << endl;
+    cout << "==================================" << endl;
     
     return 0;
 }

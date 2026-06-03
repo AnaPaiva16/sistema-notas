@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./logo.png" alt="LunaCode Systems Logo" width="180" style="border-radius: 50%; border: 3px solid #9370DB;">
+</p>
+
 # <p align="center"> ✨<code>SISTEMA DE NOTAS v4.1</code> ✨</p>
 <p align="center">
   <img src="https://img.shields.io/badge/🌸%20Estilo-Soft%20Pink%20%26%20Purple-ff69b4?style=for-the-badge" alt="Estilo">
@@ -5,15 +9,11 @@
   <img src="https://img.shields.io/badge/💻%20Ambiente-Windows%20Only-8A2BE2?style=for-the-badge" alt="Ambiente">
 </p>
 
-<p align="center">
-  <img src="./logo.png" alt="Logo" width="250">
-</p>
-
 ---
 
 > 💜 *“Transformando linhas de código brutas em uma experiência acadêmica mágica, organizada e cheia de cor!”*
 
-Este sistema foi desenvolvido com muito carinho e dedicação durante o curso **Técnico em Desenvolvimento de Sistemas** no **SENAI-SP**. O projeto base foi completamente transformado através de **modificações autorais criativas**, focadas em design de interface de terminal, inteligência de dados (Business Intelligence), relatórios focados em decisões pedagógicas e blindagem total contra erros de digitação.
+Este sistema foi desenvolvido com muito carinho e dedicação durante o curso **Técnico em Desenvolvimento de Sistemas** no **SENAI-SP**. O projeto base foi completamente transformado através de **modificações autorais criativas**, focadas in design de interface de terminal, inteligência de dados (Business Intelligence), relatórios focados em decisões pedagógicas e blindagem total contra erros de digitação.
 
 ---
 

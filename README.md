@@ -5,14 +5,11 @@
   <img src="https://img.shields.io/badge/💻%20Ambiente-Windows%20Only-8A2BE2?style=for-the-badge" alt="Ambiente">
 </p>
 
----
-
-## <p align="center">🎀 Paleta de Cores do Projeto 🎀</p>
 <p align="center">
-  <img src="https://via.placeholder.com/15/FF69B4/000000?text=+" alt="Pink"> <code>#FF69B4 (Pink)</code> &nbsp;&nbsp;
-  <img src="https://via.placeholder.com/15/9370DB/000000?text=+" alt="Purple"> <code>#9370DB (Purple)</code> &nbsp;&nbsp;
-  <img src="https://via.placeholder.com/15/E6E6FA/000000?text=+" alt="Lilac"> <code>#E6E6FA (Lilac)</code>
+  <img src="./logo.png" alt="Logo" width="250">
 </p>
+
+---
 
 > 💜 *“Transformando linhas de código brutas em uma experiência acadêmica mágica, organizada e cheia de cor!”*
 
@@ -31,7 +28,7 @@ Aqui está a evolução detalhada do projeto, destacando o que era a estrutura b
 | **Commit 3: Anti-Quebra** | *Não existia no escopo base.* | **Blindagem total!** Uso estratégico de `cin.fail()`, `cin.clear()` e `cin.ignore()`. Se digitarem uma letra em campos numéricos, o sistema limpa o erro e pede o dado certo de novo, evitando travamentos. |
 | **Commit 4: Interface e Relatório** | Exibição dos resultados e gravação dos dados no arquivo físico `relatorio.txt` usando `<fstream>`. | **Design Estilizado:** Cores no terminal via `<windows.h>`, mensagens afetivas originais e **Métricas Avançadas** (Cálculo automático do Aluno Destaque e Disciplina Crítica). |
 | **Commit 5: Histórico Salvo** | Integração com `ifstream` para ler o arquivo diretamente no terminal através da Opção 2. | Formatação perfeita na tela resgatando o design visual do arquivo gravado e criação automática de um sistema de logs (`acessos.txt`). |
-| **Commit 6: Monitoria Técnica** | *Não existia no escopo base.* | **Filtro de Recuperação (Opção 5):** Criação de um gerador de relatórios focado em alunos com média entre 5.0 e 6.9, isolando os dados em `recuperacao.txt` para ações pedagógicas imediatas. |
+| **Commit 6: Monitoria Técnico** | *Não existia no escopo base.* | **Filtro de Recuperação (Opção 5):** Criação de um gerador de relatórios focado em alunos com média entre 5.0 e 6.9, isolando os dados em `recuperacao.txt` para ações pedagógicas imediatas. |
 | **Commit 7: Sistema de Arquivos** | *Não existia no escopo base.* | **Customização Dinâmica:** Permite que o usuário digite o nome que quiser para os arquivos salvos. Conta com auto-complete automático para extensões `.txt` e vinculação inteligente do leitor (Opção 2) com o último arquivo criado. |
 
 ---
@@ -67,10 +64,10 @@ Para ver o festival de cores e mensagens acontecer na sua tela, certifique-se de
 
 ```bash
 # 1. Faça o download do repositório maravilhoso
-git clone [https://github.com/seu-usuario/sistema-de-notas.git](https://github.com/seu-usuario/sistema-de-notas.git)
+git clone [https://github.com/AnaPaiva16/sistema-notas.git](https://github.com/AnaPaiva16/sistema-notas.git)
 
 # 2. Entre na pasta do projeto
-cd sistema-de-notas
+cd sistema-notas
 
 # 3. Compile com o GCC
 g++ main.cpp -o SistemaNotasDeluxe.exe

@@ -17,6 +17,16 @@ Este sistema foi desenvolvido com muito carinho e dedicação durante o curso **
 
 ---
 
+## 🎀 Paleta de Cores do Projeto 🔮
+
+Aqui estão as cores oficiais que compõem a identidade visual da **Paiva's Tech**:
+
+* **Soft Pink:** ![#FF69B4](https://img.shields.io/badge/Pink-%23FF69B4-ff69b4?style=for-the-badge)
+* **Purple Royale:** ![#9370DB](https://img.shields.io/badge/Purple-%239370DB-9370DB?style=for-the-badge)
+* **Lilac Celestial:** ![#E6E6FA](https://img.shields.io/badge/Lilac-%23E6E6FA-E6E6FA?style=for-the-badge&labelColor=333333)
+
+---
+
 ## 🦄 Linha do Tempo de Desenvolvimento (Commits)
 
 Aqui está a evolução detalhada do projeto, destacando o que era a estrutura base e onde eu brilhei com as minhas **Adições Criativas Autorais** em cada etapa:
@@ -53,7 +63,7 @@ Aqui está a evolução detalhada do projeto, destacando o que era a estrutura b
 
 * 🎀 **C++ Core:** ![C++](https://img.shields.io/badge/C%2B%2B-Pink-ff69b4?style=flat-square&logo=c%2B%2B) → Base lógica, matrizes, algoritmos de ordenação (*Bubble Sort* para o Ranking) e vetores.
 * 🔮 **Windows API:** ![WinAPI](https://img.shields.io/badge/Windows%20API-Purple-8a2be2?style=flat-square&logo=windows) → Ativação do arco-íris de cores e animações de tempo no terminal.
-* 🔮 **Fstream & Iomanip:** ![Files](https://img.shields.io/badge/I%2FO%20Stream-Lilac-da70d6?style=flat-square) → Gravação e leitura de múltiplos arquivos simultâneos e tratamento cirúrgico de strings para evitar quebras de tabela em UTF-8.
+* 🔮 **Fstream & Iomanip:** ![Files](https://img.shields.io/badge/I%2FO%20Stream-Lilac-da70d6?style=flat-square) → Gravação e leitura de múltiplos arquivos simultâneos e tratamento cirúrgico de strings para evitar quebras de tabela in UTF-8.
 * 🎀 **Git / GitHub:** ![Git](https://img.shields.io/badge/Git-Rose-ffb6c1?style=flat-square&logo=git) → Controle e histórico impecável dos Commits estruturados e separados por responsabilidade.
 
 ---
